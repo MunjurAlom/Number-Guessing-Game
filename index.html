@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Number Guessing Game</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top text-light align-content-center"
+        style="background: linear-gradient(to right,#747bdd, #da6e9e )">
+        <h4 class="m-auto p-2">Number Guessing Game</h4>
+    </nav>
+
+    <div class="container">
+
+        <h5>Can you guess the secret number?🤔😀 <br> Try to guess a number between 1 to 10 in 3 attempts!</h5>
+        <input type="number" placeholder="Enter Your Guess Number" id="userInput">
+        <button onclick="checkGuess()">Submit Guess</button>
+        <p id="message"></p>
+    </div>
+
+    <div class="row">
+        <div class="col text-center">
+            <br>
+            <p><b>&copy; All Right Reserved To Munjur Alom</b></p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
